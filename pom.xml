@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>myapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>myapp</name>
 	<description>SpringBook_Chapter8_Boot(8.5)</description>
 	<properties>
@@ -90,6 +90,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>SpringGitExample</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
